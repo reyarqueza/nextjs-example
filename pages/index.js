@@ -13,7 +13,6 @@ export async function getServerSideProps(context) {
 }
 
 export default function Home({ coinList }) {
-  console.log(coinList);
   return (
     <div className={styles.container}>
       <Head>
